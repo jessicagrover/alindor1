@@ -8,7 +8,7 @@ import logging
 import re
 
 from .models import Candidate, JobDescription
-from .Serializers import CandidateSerializer, JobDescriptionSerializer
+from .serializers import CandidateSerializer, JobDescriptionSerializer
 
 # Set the OpenAI API key
 openai.api_key = 'sk-proj-EHuASXsFy6RkWqqSahmpT3BlbkFJQBushXcrfiVVpCtsUnpT'
