@@ -11,7 +11,6 @@ from .models import Candidate, JobDescription
 from .serializers import CandidateSerializer, JobDescriptionSerializer
 
 # Set the OpenAI API key
-# openai.api_key = 'sk-proj-EHuASXsFy6RkWqqSahmpT3BlbkFJQBushXcrfiVVpCtsUnpT'
 
 @api_view(['POST'])
 @parser_classes([MultiPartParser])
